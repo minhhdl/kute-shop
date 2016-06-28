@@ -28,7 +28,7 @@ img {
 }
 
 a {
-  color: $xlight-black;
+  color: $text-gray;
   outline: none;
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -55,4 +55,14 @@ input {
   &:focus {
     outline: none;
   }
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ol, ul {
+    list-style: outside none none;
+    padding: 0;
 }

@@ -1,6 +1,7 @@
 
 // Color
-$base-color: #ff3366;
+$base-color: #f36;
+$base-bgcolor: #f6f6f6;
 $white: #fff;
 $dark-white: #f4f4f4;
 $black: #000;
@@ -8,8 +9,8 @@ $light-black: #1c1c1c;
 $xlight-black: #2b2b2b;
 $gray: #eaeaea;
 $dark-gray: #E1E1E1;
-$text-dark-gray: #666;
-$text-gray: #a4a4a4;
+$text-dark-gray: #E0E0E0;
+$text-gray: #666;
 $green: #38c662;
 $xgreen: #2dc159;
 $light-green: #4ba14f;
@@ -31,8 +32,8 @@ $xlight-blue: #2cb9cd;
 
 
 /* fonts */
-$font-base: 16px;
-$font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-base: 14px;
+$font-family: "Arial",sans-serif;
 $font-open-sans: 'Open Sans', sans-serif;
 $font-bold: 700;
 $font-semibold: 600;
@@ -42,6 +43,10 @@ $font-light: 300;
 
 /* gutter */
 $gutter: 20px;
+$header-gutter: 34px;
+$header-base-height: 41px;
+$header-base-width: 41px;
+$padding-gutter: 15px;
 
 /* breakpoint */
 $large: 1200px;

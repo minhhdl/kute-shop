@@ -43,8 +43,8 @@ module.exports = function(grunt) {
       },
       img: {
         src: '**/*.*',
-        cwd: '<%= base.src %>/img',
-        dest: '<%= base.pub %>/assets/img',
+        cwd: '<%= base.src %>/images',
+        dest: '<%= base.pub %>/assets/images',
         expand: true
       }
     },
@@ -137,7 +137,7 @@ module.exports = function(grunt) {
         tasks: ['copy:font']
       },
       img: {
-        files: '<%= base.src %>/img/*.*',
+        files: '<%= base.src %>/images/*.*',
         tasks: ['copy:img']
       }
     }
